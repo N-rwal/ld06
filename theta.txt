@@ -1,0 +1,8 @@
+USB configure:
+sudo chmod 777 /dev/ttyUSB0
+
+Static transform:
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link laser
+
+Launch:
+ros2 launch ldlidar ldlidar.launch.py
