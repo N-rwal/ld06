@@ -8,7 +8,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             name='serial_port', 
-            default_value='',
+            default_value='/dev/mylidar',
             description='LD06 Serial Port'
         ),
         DeclareLaunchArgument(
